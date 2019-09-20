@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="auth" uuid="4758ea64-9838-4761-8276-05e8610a06fc">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\GitHub\month4\week3\Sprint-Challenge-Authentication\database\auth.db3</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="test" uuid="e62fd1f7-29a0-4b70-80ce-71b688001b1b">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\GitHub\month4\week3\Sprint-Challenge-Authentication\database\test.db3</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
